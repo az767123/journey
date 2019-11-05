@@ -1,5 +1,5 @@
 <template>
-  <div>首页
+  <div>
     <home-header></home-header>
   </div>
 
@@ -17,9 +17,6 @@
 </script>
 
 <style lang="less" scoped>
-  @color:red;
-  div {
-    color:@color;
-  }
+
 
 </style>
