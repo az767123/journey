@@ -6,7 +6,7 @@
 
 <script>
 
-  import Home from "./components/home"
+  import Home from "views/home";
 
 export default {
   name: 'app',
