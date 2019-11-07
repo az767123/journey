@@ -11,8 +11,8 @@
       </div>
     </div>
 
-    <div class="right">
-      <span>城市</span>
+    <div class="right" @click="enterCity">
+      <span>{{$store.state.city}}</span>
       <span class="iconfont">&#xe64a;</span>
     </div>
 
@@ -21,27 +21,41 @@
 
 <script>
   export default {
-    name: "homeHeader"
+    name: "homeHeader",
+    props:{
+      cityHeader:String
+    },
+    methods:{
+      enterCity() {
+        this.$router.push("/homecity")
+      }
+    }
   }
 </script>
 
 
 <style lang="less" scoped>
-  @import "../assets/css/base.less";
+  @import "../../assets/css/base.less";
   .header {
+    z-index:10;
+    position:fixed;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
     width: 100%;
-    height: 43rem / 50 ;
+    height: @headerHeight ;
+    line-height: @headerHeight;
     display: flex;
     background-color:@baseBack;
     font-size: 16rem /50;
-    line-height: 43rem /50;
+    max-width:640px;
     .left {
       width: 32rem / 50;
       margin-left:4rem /50;
       text-align: center;
       .iconfont {
         color:white;
-        font-size: 30px;
+        font-size: 26px;
       }
     }
     .input {
@@ -56,11 +70,10 @@
       padding-left:6rem /50;
       .iconfont {
         font-size: 18px;
-
       }
     }
     .right {
-      width: 62rem / 50;
+      min-width: 62rem / 50;
       color:white;
       display: flex;
       span {

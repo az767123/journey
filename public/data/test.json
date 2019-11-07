@@ -1,0 +1,95 @@
+{
+  "ret": true,
+  "data": {
+    "city": "贵阳",
+    "swiperList":[
+      {"id":1, "imgUrl":"//mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20198/b59b8db9f72eb8f54df5bf2155672e9c.jpg"},
+      {"id":2, "imgUrl":"//mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20199/76e68eda4ed089c0e5b0ce2367efe428.jpg"},
+      {"id":3, "imgUrl":"//mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20199/387c5e767cccc7a3172ed7ea15b50727.png"},
+      {"id":4, "imgUrl":"//mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/201910/abe3418971067bd655fb2794d6e2eeec.jpg"},
+      {"id":5, "imgUrl":"//mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20197/3f5ff03fa0c024b930f515e63ae2c702.jpg_945x288_7dff4510.jpg"}
+    ],
+    "iconList":[
+      {
+        "id":1,
+        "imgUrl":"//s.qunarzz.com/homenode/images/touchheader/hotel.png",
+        "word":"酒店"
+      },
+      {
+        "id":2,
+        "imgUrl":"//s.qunarzz.com/homenode/images/touchheader/flight.png",
+        "word":"机票"
+      },
+      {
+        "id":3,
+        "imgUrl":"//s.qunarzz.com/homenode/images/touchheader/train.png",
+        "word":"火车票"
+      },
+      {
+        "id":4,
+        "imgUrl":"//s.qunarzz.com/homenode/images/touchheader/package.png",
+        "word":"度假"
+      }
+    ],
+    "recommendList":[
+      {
+        "id":1,
+        "imgUrl":"//imgs.qunarzz.com/p/tts7/1806/47/1459031f5bce9702.jpg_r_480x320x90_1278f656.jpg",
+        "title":"贵阳-剑河温泉 2天自由行",
+        "word":"【贵州剑河温泉】仰阿莎酒店+双人自助早餐+双人剑河温泉（可选）"
+      },
+      {
+        "id":2,
+        "imgUrl":"//imgs.qunarzz.com/vs_ceph_vs_tts/ef2c904e-45be-4919-8f90-05d2fa774a02.jpg_r_480x320x90_bf365427.jpg",
+        "title":"贵阳-石阡县 2天自由行",
+        "word":"【亲子游-带娃一起泡温泉】御汤生温泉度假酒店+两大一小温泉"
+      },
+      {
+        "id":3,
+        "imgUrl":"//imgs.qunarzz.com/vs_ceph_vs_tts/7ffce950-c9d6-4477-b5ac-fe1a1147da45.jpg_r_480x320x90_f61b4a8a.jpg",
+        "title":"贵阳-缅甸 6天跟团游",
+        "word":"双十一特惠\uD83D\uDDFC贵阳✈缅甸5/6日探寻万塔之国 观最美日落 千人僧饭"
+      },
+      {
+        "id":4,
+        "imgUrl":"//imgs.qunarzz.com/vs_ceph_vs_tts/d05381d4-f4d7-4a7a-a44b-5b7c8151161b.jpg_r_480x320x90_3f9f8ff2.jpg",
+        "title":"贵阳-泰国 6天跟团游",
+        "word":"错峰出游普吉岛5/6日、大小PP岛♛海帝王岛、快艇蓝钻珊瑚岛一网打尽"
+      }
+    ],
+    "holidayList":[
+      {
+        "id":1,
+        "where":"贵阳-三亚",
+        "time":"5天跟团游",
+        "word":"含往返飞机票",
+        "price":"¥2370",
+        "imgUrl":"//imgs.qunarzz.com/p/p66/201304/17/384810d022dd28f793835fbb.jpg_256x160_6a7ec251.jpg"
+      },
+      {
+        "id":2,
+        "where":"贵阳-丽江",
+        "time":"4天自由行",
+        "word":"含往返飞机票+3晚住宿",
+        "price":"¥3025",
+        "imgUrl":"//imgs.qunarzz.com/p/p70/1809/e7/4941057a6aae702.jpg_256x160_9fee6ccb.jpg"
+      },
+      {
+        "id":3,
+        "where":"贵阳-桂林",
+        "time":"5天跟团游",
+        "word":"含往返飞机票+4晚住宿",
+        "price":"¥1290",
+        "imgUrl":"//imgs.qunarzz.com/p/p14/201302/28/218ac6605f1d637f93835fbb.jpg_256x160_bfee6c2d.jpg"
+      },
+      {
+        "id":4,
+        "where":"贵阳-吉普岛",
+        "time":"6天跟团游",
+        "word":"含往返飞机票(含税)",
+        "price":"¥1520",
+        "imgUrl":"//imgs.qunarzz.com/sight/p0/1504/4f/4f7ada6deb2b5949.water.jpg_256x160_21ad6df6.jpg"
+      }
+    ]
+  }
+}
